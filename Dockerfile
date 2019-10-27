@@ -13,4 +13,3 @@ COPY default.conf /etc/nginx/conf.d/default.conf
 
 # Configure PHP-FPM
 COPY fpm-pool.conf /etc/php7/php-fpm.d/www.conf
-COPY php.ini /etc/php7/conf.d/zzz_custom.ini
